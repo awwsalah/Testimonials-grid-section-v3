@@ -128,15 +128,16 @@ h6{
 
 span{
     opacity: 70%;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
+    padding-bottom: 10px;
 }
 p{
     padding-top: 15px;
     padding-bottom: 10px;
     font-weight: 600;
     line-height: 1.4;
-    font-size: 18px;
+    font-size: 21px;
 }
 .user-light h6{
     color: var(--dark-grey);
@@ -153,7 +154,7 @@ p{
 
     }
     .container{
-        margin: auto 190px;
+        margin: auto 160px;
 
     }
     .grid{
@@ -168,7 +169,7 @@ p{
 
     }
     .container{
-        margin: 90px 100px;
+        margin: auto 100px;
 
     }
     .grid{
