@@ -15,19 +15,22 @@
 }
 article{
     border-radius: 10px;
-    padding: 15px;
+    padding: 20px;
     box-shadow: 30px solid ;
 }
 
 body{
     width: 100%;
-    height: 100dvh;
+    height: 100dvb;
+    display:flex;
     background-color: var(--background-color);
     font-family: "Barlow Semi Condensed", sans-serif;
-    padding: 100px 200px;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-content: center;
+
+}
+.container{
+    margin: auto 240px;
 }
 
 .grid{
@@ -87,9 +90,6 @@ body{
 }
 .grid5 p{
     color: var(--dark-grey);
-    
-    
-
 }
 
 
@@ -103,7 +103,7 @@ img{
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 20px 0;
+    padding: 0px 0;
 }
 
 .user-dark-text h4{
@@ -128,41 +128,78 @@ h6{
 
 span{
     opacity: 50%;
-    padding-top: 20px;
-    font-size: 11px;
+    font-size: 14px;
 }
 p{
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     font-weight: 600;
 }
+.user-light h6{
+    color: var(--dark-grey);
+    opacity: 46%;
+}
 
-@media only screen and (max-width: 1580px){
+
+@media only screen and (max-width: 1250px){
     body{
         width: 100%;
-        padding: 100px 200px;
+
     }
-    .grid1{
-        background-position: 90% 10%;
-        background-size: 80px 80px;
+    .container{
+        margin: auto 80px;
+
+    }
+    .grid{
+        margin: 0%;
+
     }
     
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 950px){
     body{
         width: 100%;
-        padding: 100px 50px;
+
+    }
+    .container{
+        margin: 20px 40px;
+
+    }
+    .grid{
+        margin: 0%;
+
+    }
+    
+}
+@media only screen and (max-width: 850px){
+    body{
+        width: 100%;
+
+    }
+    .container{
+        margin: 10px 20px;
+
+    }
+    .grid{
+        margin: 0%;
+
     }
     
 }
 @media only screen and (max-width: 800px){
     body{
         width: 100%;
-        padding: 80px 200px;
+        height: 100dvh;
+    }
+    .container{
+        margin: 60px 100px;
+
     }
 
     .grid{
         display: flex;
         flex-direction: column;
+        gap: 30px;
     }
     p{
         font-size: 18px;
@@ -172,64 +209,39 @@ p{
     }
     
 }
-@media only screen and (max-width: 790px){
-    body{
-        width: 100%;
-        padding: 80px 180px;
-    }
 
-    .grid{
-        display: flex;
-        flex-direction: column;
-    }
-    p{
-        font-size: 18px;
-    }
-    span{
-        font-size: 18px;
-    }
-    
-}
+
+
 @media only screen and (max-width: 700px){
     body{
         width: 100%;
-        padding: 80px 140px;
-    }
-
-    .grid{
-        display: flex;
-        flex-direction: column;
-    }
-    p{
-        font-size: 18px;
-    }
-    span{
-        font-size: 18px;
-    }
-    
-}
-@media only screen and (max-width: 600px){
-    body{
-        width: 100%;
-        padding: 80px 100px;
-    }
-
-    .grid{
-        display: flex;
-        flex-direction: column;
-    }
-    p{
-        font-size: 18px;
-    }
-    span{
-        font-size: 18px;
-    }
-    
-}
-@media only screen and (max-width: 560px){
-    body{
-        width: 100%;
         padding: 80px 50px;
+    }
+    .container{
+        margin: 30px 20px;
+
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    p{
+        font-size: 18px;
+    }
+    span{
+        font-size: 18px;
+    }
+    
+}
+@media only screen and (max-width: 590px){
+    body{
+        width: 100%;
+    }
+    .container{
+        margin: 6px 10px;
+
     }
 
     .grid{
