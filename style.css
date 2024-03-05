@@ -15,7 +15,7 @@
 }
 article{
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
     box-shadow: 30px solid ;
 }
 
@@ -44,8 +44,8 @@ body{
     background-image: url(images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position-x: right;
-    background-position: 90% 10%;
-    background-size: 80px 80px;
+    background-position: 80% 3%;
+    background-size: 100px 110px;
     grid-column: 1 /3;
     grid-row: 1/ 3;
     background-color: var(--purple);
@@ -127,27 +127,78 @@ h6{
 }
 
 span{
-    opacity: 50%;
-    font-size: 14px;
+    opacity: 70%;
+    font-size: 13px;
+    font-weight: 400;
 }
 p{
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     font-weight: 600;
+    line-height: 1.4;
+    font-size: 18px;
 }
 .user-light h6{
     color: var(--dark-grey);
     opacity: 46%;
 }
+.light span{
+    color: var(--dark-grey);
+}
 
 
-@media only screen and (max-width: 1250px){
+@media only screen and (min-width: 1301px){
     body{
         width: 100%;
 
     }
     .container{
-        margin: auto 80px;
+        margin: auto 190px;
+
+    }
+    .grid{
+        margin: 0%;
+
+    }
+    
+}
+@media only screen and (max-width: 1300px){
+    body{
+        width: 100%;
+
+    }
+    .container{
+        margin: 90px 100px;
+
+    }
+    .grid{
+        margin: 0%;
+
+    }
+    
+}
+@media only screen and (max-width: 1200px){
+    body{
+        width: 100%;
+
+    }
+    .container{
+        margin: 90px 60px;
+
+    }
+    .grid{
+        margin: 0%;
+
+    }
+    
+}
+@media only screen and (max-width: 1110px){
+    body{
+        width: 100%;
+
+    }
+    .container{
+        margin: 50px 40px;
 
     }
     .grid{
@@ -162,7 +213,7 @@ p{
 
     }
     .container{
-        margin: 20px 40px;
+        margin: 15px 40px;
 
     }
     .grid{
@@ -171,13 +222,13 @@ p{
     }
     
 }
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 920px){
     body{
         width: 100%;
 
     }
     .container{
-        margin: 10px 20px;
+        margin: 10px 10px;
 
     }
     .grid{
@@ -186,7 +237,22 @@ p{
     }
     
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 856px){
+    body{
+        width: 100%;
+
+    }
+    .container{
+        margin: 6px 5px;
+
+    }
+    .grid{
+        margin: 0%;
+
+    }
+    
+}
+@media only screen and (max-width: 830px){
     body{
         width: 100%;
         height: 100dvh;
